@@ -28,7 +28,7 @@ on:
 # `gh pr merge --auto`. If you tighten the repo's default token permissions,
 # keep these.
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
   issues: write
 
