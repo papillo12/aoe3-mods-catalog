@@ -117,7 +117,7 @@
       "properties": {
         "mechanism": {
           "type": "string",
-          "enum": ["WolPatcher", "DelegatedExternal", "GitHubReleases"],
+          "enum": ["WolPatcher", "DelegatedExternal", "GitHubReleases", "Manual"],
           "description": "WolPatcher = UpdateInfo.xml + .tar.xz patches. DelegatedExternal = mod has its own external patcher; launcher only plays. GitHubReleases = updates ship as GitHub Releases on the mod's own repo."
         },
         "wol": {
